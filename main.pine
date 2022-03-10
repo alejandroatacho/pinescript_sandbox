@@ -1,0 +1,9 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © Hinamizawa (url:https://github.com/alejandroatacho)
+
+//@version=5
+indicator("My script", overlay=true)
+x = highest(high, 50)
+y = lowest(low,50)
+
+plot(x)
